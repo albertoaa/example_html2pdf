@@ -8,8 +8,12 @@
     <title>Print View for html2pdf</title>
 </head>
 <body>
-    <h1>HelloWorld</h1>
-    <h2>Más información</h2>
+<?php
+    if (isset($_POST['title'])):?>
+        <h1><?=$_POST['title']?></h1>
+<?php endif; ?>
+
+    <h2>More information</h2>
     <p>This is my first test</p>
 </body>
 </html>

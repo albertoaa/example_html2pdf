@@ -14,5 +14,6 @@
 ?>
 
 <form action="" method="post">
+    <input type="text" placeholder="Title" name="title">
     <input type="submit" value="Create PDF" name="create"/>
 </form>
