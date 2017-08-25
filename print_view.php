@@ -6,6 +6,15 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Print View for html2pdf</title>
+    <style>
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+        h2 {
+            color: blue;
+        }
+    </style>
 </head>
 <body>
 <?php
